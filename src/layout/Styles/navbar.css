@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+.navbar-nav li {
+    font-size: 19px; /* Adjust the font size as needed */
+    font-family: 'Arial' ;
+  }
+.bi-book {
+    color:'aliceblue';
+}
+/* .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }*/
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /*Ensures the ul expands to take available space */
+  margin-right: -20em;
+}
+.navbar-form {
+    justify-content: right;
+    align-items: right;
+  }
+
+
+/* Styles/navbar.css */
+
+/* Keep the existing styles for .navbar-nav li, .bi-book, .navbar-collapse, and .navbar-form */
+
+/* Change the outline color of the "Search" button to blueviolet */
+.btn-outline-primary {
+    border-color: blueviolet;
+    color: white;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+/* .navbar-collapse {
+  display: flex;
+  justify-content: space-between; //Align children at the start and end of the flex container 
+   align-items: center; Vertically align children to the center 
+} */
